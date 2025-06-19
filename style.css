@@ -20,7 +20,6 @@ body{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  
   min-height: 100vh;
   min-width: 100vw;
 }
@@ -44,10 +43,10 @@ main ul li{
     backdrop-filter: blur(20px);
     box-shadow: 0.3px 0.3px 0.3px 0.3px black;  
 }
-main ul li a{
+main ul a{
     text-decoration: none;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em;
     font-weight: 600;
 }
 .top{
@@ -59,4 +58,27 @@ main ul li a{
     margin-right: 2em;
     height: 3em;
     width: 13em;
+}
+@keyframes bttnani {
+    from{
+    width: 39em;
+    height: 3em;
+    }
+    to{
+    width: 40.1em;
+    height: 3.08em;
+
+    }
+}
+main ul li:hover{
+    animation:bttnani 0.12s linear 0s 1 normal forwards;
+}
+.right button{
+    height: 3em;
+    width: 13em;
+    border-radius: 50px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    backdrop-filter: blur(70px);
+    cursor: pointer;
 }
