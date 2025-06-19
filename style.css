@@ -9,6 +9,7 @@ header h1{
     text-align: center;
     color: white;
     font-size: 2em;
+    padding-top: 1.5em;
 }
 body{
     background-image: url(/5014477.png);
@@ -31,16 +32,31 @@ main h2{
 
 main ul li{
     list-style:none ;
-    text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70vw;
-    height: 5vh;
+    width: 39em;
+    height: 3em;
     /* border: white 2px solid; */
     margin: 40px auto;
     border-radius: 40px;
     background: rgba(0,0,0,0);
     backdrop-filter: blur(20px);
-    box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+    box-shadow: 0.3px 0.3px 0.3px 0.3px black;  
+}
+main ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right button{
+    margin-right: 2em;
+    height: 3em;
+    width: 13em;
 }
