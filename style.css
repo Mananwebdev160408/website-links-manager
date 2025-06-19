@@ -34,7 +34,7 @@ main ul li{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 39em;
+    width: 45vw;
     height: 3em;
     /* border: white 2px solid; */
     margin: 40px auto;
@@ -81,4 +81,19 @@ main ul li:hover{
     color: white;
     backdrop-filter: blur(70px);
     cursor: pointer;
+}
+@media (max-width:640px) {
+    .top{
+        flex-direction: column;
+
+    }
+    .top .left h2{
+        margin: 0px auto;
+    }
+   #btttn{
+    margin-top: 14px;
+   }
+   main ul li{
+    width: 70vw;
+   }
 }
