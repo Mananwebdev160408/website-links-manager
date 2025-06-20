@@ -1,99 +1,101 @@
-*{
-      font-family: "Montserrat", sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   margin: 0;
   padding: 0;
 }
-header h1{
-    text-align: center;
-    color: white;
-    font-size: 2em;
-    padding-top: 1.5em;
+header h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  padding-top: 1.5em;
 }
-body{
-    background-image: url(/5014477.png);
-    background-size: cover;
-    /* background-position: center; */
-    background-repeat: no-repeat;
-      font-family: "Montserrat", sans-serif;
+body {
+  background-image: url(/Untitled\ design.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   min-height: 100vh;
   min-width: 100vw;
+  /* background: rgba(255,255,255,0.1); */
+  /* backdrop-filter: blur(5px); */
 }
-main h2{
-    color: #e7ebb3;
-    font-size: 2em;
-    margin-left: 2em;
+main h2 {
+  color: #e7ebb3;
+  font-size: 2em;
+  margin-left: 2em;
 }
 
-main ul li{
-    list-style:none ;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 45vw;
-    height: 3em;
-    /* border: white 2px solid; */
-    margin: 40px auto;
-    border-radius: 40px;
-    background: rgba(0,0,0,0);
-    backdrop-filter: blur(20px);
-    box-shadow: 0.3px 0.3px 0.3px 0.3px black;  
+main ul li {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45vw;
+  height: 3em;
+  /* border: white 2px solid; */
+  margin: 40px auto;
+  border-radius: 40px;
+  background: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(20px);
+  box-shadow: 0.3px 0.3px 0.3px 0.3px black;
+  z-index: 1;
 }
-main ul a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.2em;
-    font-weight: 600;
+main ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: 600;
 }
-.top{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.right button{
-    margin-right: 2em;
-    height: 3em;
-    width: 13em;
+.right button {
+  margin-right: 2em;
+  height: 3em;
+  width: 13em;
 }
-@keyframes bttnani {
+/* @keyframes bttnani {
     from{
     width: 39em;
     height: 3em;
     }
     to{
-    width: 40.1em;
+    width: 39em;
     height: 3.08em;
 
     }
+} */
+/* main ul li:hover{ */
+/* animation:bttnani 0.12s linear 0s 1 normal forwards;
+} */
+.right button {
+  height: 3em;
+  width: 13em;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  backdrop-filter: blur(70px);
+  cursor: pointer;
 }
-main ul li:hover{
-    animation:bttnani 0.12s linear 0s 1 normal forwards;
-}
-.right button{
-    height: 3em;
-    width: 13em;
-    border-radius: 50px;
-    background-color: rgba(0,0,0,0);
-    color: white;
-    backdrop-filter: blur(70px);
-    cursor: pointer;
-}
-@media (max-width:640px) {
-    .top{
-        flex-direction: column;
-
-    }
-    .top .left h2{
-        margin: 0px auto;
-    }
-   #btttn{
+@media (max-width: 640px) {
+  .top {
+    flex-direction: column;
+  }
+  .top .left h2 {
+    margin: 0px auto;
+  }
+  #btttn {
     margin-top: 14px;
-   }
-   main ul li{
+  }
+  main ul li {
     width: 70vw;
-   }
+  }
 }
